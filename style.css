@@ -867,8 +867,9 @@ html {
   .change .menu {
     transform: translateX(16rem);
     position: fixed;
-    left: 6rem;
+    left: -3rem;
     background-color: #eee;
+    z-index: 10000;
   }
 
   .menu-icon {
@@ -895,7 +896,7 @@ html {
   }
 
   .change .line-1 {
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(-1px);
     background-color: #444;
   }
 
@@ -905,7 +906,7 @@ html {
   }
 
   .change .line-3 {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(1px);
     background-color: #444;
   }
 
